@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <title>Registration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            background-color: #0d1128;
+        }
+        .main-register-container{
+            width: 40%;
+            padding: 10px;
+            margin: 0px auto;
+            box-shadow: 2px 2px 5px 0px rgba(179,173,173,0.75);
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+        .main-register-container h3{
+            font-size: 2rem;
+            color: antiquewhite;
+            letter-spacing: 1px;
+            margin: 20px;
+        }
+        .main-register-container form{
+            width: 100%;
+        }
+        .main-register-container form label{
+            width: 42%;
+            float: left;
+            display: block;
+            color: antiquewhite;
+            letter-spacing: 1px;
+        }
+        .main-register-container form input{
+            width: 50%;
+            margin: 3px 0px;
+            display: block;
+            padding: 5px;
+            font-size: 1rem;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: antiquewhite;
+            border-bottom: 2px solid gray;
+            letter-spacing: 1px;
+        }
+        .main-register-container form button{
+            background-color: #fd5f00;
+            color: antiquewhite;
+            padding: 6px;
+            font-size: 1.2rem;
+            width: 50%;
+            border: none;
+            outline: none;
+            margin-bottom: 30px;
+        }
+        .main-register-container form button:hover{
+            color: #fd5f00;
+            background: transparent;
+            outline: 1px solid #fd5f00;
+            transition: 0.2s ease-in-out;
+        }
+        .main-register-container a{
+            text-decoration: none;
+        }
+        .main-register-container a:active{
+            color: #0d1128;
+        }
+        .main-register-container p{
+            padding-bottom: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="main-register-container">
+        <h3>Register Here!</h3>
+            <form>
+                <div class="register-firstname">
+                    <label for="firstname">Firstname:</label>
+                    <input type="text" placeholder="Firstname" class="firstname"><br>
+                </div>
+                <div class="register-lastname">
+                    <label for="lastname">Lastname:</label>
+                    <input type="text" placeholder="Lastname" class="Lastname"><br>
+                </div>
+                <div class="register-email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="E-mail" class="email"><br>
+                </div>
+                <div class="register-phone">
+                    <label for="phone">Phone:</label>
+                    <input type="text" placeholder="Phone" class="Phone"><br>
+                </div>
+                <div class="register-password">
+                    <label for="password">Password:</label>
+                    <input type="password" placeholder="Password" class="password"><br>
+                </div>
+                <div class="register-rpassword">
+                    <label for="RPassword">Repeat-Password:</label>
+                    <input type="password" placeholder="Repeat-Password" class="RPassword"><br>
+                </div>
+                <a href="./login.html"><button type="button" class="submit">Submit</button></a>
+            </form>
+        <a href="./login.html"><p>already have an account</p></a>
+   </div>
+
+
+</body>
+</html>

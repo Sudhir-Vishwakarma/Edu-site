@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            background-color: #0d1128;
+        }
+        .login-main-container{
+            width: 30%;
+            padding: 10px;
+            margin: 0px auto;
+            box-shadow: 2px 2px 5px 0px rgba(179,173,173,0.75);
+            text-align: center;
+            margin-top: 170px;
+            border-radius: 20px;
+        }
+        .login-main-container .form-text .form-login-text{
+            font-size: 2rem;
+            color: antiquewhite;
+            letter-spacing: 1px;
+            margin: 20px;
+        }
+        .login-main-container .form-text .form{
+            width: 100%;
+        }
+        .login-main-container .form-text .form label{
+            color: antiquewhite;
+            letter-spacing: 1px;
+            margin: 0px 10px;
+        }
+        .login-main-container .form-text .form .password{
+            margin-right: 13px;
+        }
+        .login-main-container .form-text .form input{
+            margin-bottom: 40px;
+            font-size: 1rem;
+            color: antiquewhite;
+            padding: 5px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid gray;
+            letter-spacing: 1px;
+        }
+        .login-main-container .form-text .form button{
+            background-color: #fd5f00;
+            color: antiquewhite;
+            padding: 6px;
+            font-size: 1.2rem;
+            width: 50%;
+            border: none;
+            outline: none;
+            margin-bottom: 30px;
+        }
+        .login-main-container .form-text .form button:hover{
+            color: #fd5f00;
+            background: transparent;
+            outline: 1px solid #fd5f00;
+            transition: 0.2s ease-in-out;
+        }
+        .login-main-container .form-text .login-account{
+            text-decoration: none;
+        }
+        .login-main-container .form-text .login-account:active{
+            color: #0d1128;
+        }
+        .login-main-container .form-text .login-account p{
+            padding-bottom: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-main-container">
+        <div class="form-text">
+            <h3 class="form-login-text">Login</h3>
+            <form class="form">
+                <label for="username" class="username">Username:</label>
+                <input type="text" placeholder="Enter Your username" id="username"><br>
+                <label for="username" class="password">Password:</label>
+                <input type="password" placeholder="Enter Your Password" id="password"><br>
+                <a href="../index.html"><button type="button" id="button" class="button">Submit</button></a>
+            </form>     
+            <a href="./register.html" class="login-account"><p>don't have an account</p></a>       
+        </div>
+    </div>
+
+   <script>
+
+       
+
+   </script>
+
+</body>
+</html>
